@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="containter">
+        <img class="logo" src="img/logo.png" />
+        <form>
+          <div class="username">
+            <label for="username">Username</label><br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Student13"
+              value=""
+            /><br />
+          </div>
+          <div class="password">
+            <label for="pass">Password</label><br />
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              placeholder="..................."
+            /><br />
+          </div>
+          <p id="forgot_pass">
+            <a href="#" class="forgot_pass">Forgot Password?</a>
+          </p>
+          <button id="signInButton">Sign In</button>
+        </form>
+        <div class="otherButtons">
+          <button class="buttons">
+            Sign In with SSO
+            <i class="fa fa-caret-down" style="text-align: right"></i>
+          </button>
+          <button class="buttons">
+            Sign In with OpenID
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        <p class="newAccount">
+          Not registered yet?
+          <a href="#" id="createAccount">Create account</a>
+        </p>
+        <div class="footer">
+          <span class="icon">
+            <img src="img/flag.512.png" style="width: 40px" />
+            <span class="language">Language</span>
+          </span>
+          <span class="support">Contact support</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
